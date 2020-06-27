@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    /* background-color: #cfcaca; */
+    background-image: linear-gradient(to right top, #051937, #004976, #007f9f, #00b7a3, #12eb83);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px !important;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    height: 670px;
+    margin-top: 50px;
+}
+
+.inputtext {
+    width: 350px;
+    padding: 25px;
+    height: 10px !important;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-width: 0;
+    text-align: right !important;
+    background-color: #092247;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+button,
+.empty {
+    background-color: #00b7a3;
+    padding: 20px;
+    margin: 5px !important;
+    border-width: 0;
+    float: left;
+    outline: none;
+    text-transform: none;
+    border: none;
+    font-weight: bolder;
+}
+
+.lastbtn {
+    width: 80px;
+    font-size: 30px;
+    font-weight: bolder;
+    outline: none;
+}
+
+.lastbtnequal {
+    width: 80px;
+    background-color: #00b7a3;
+    font-size: 30px;
+    outline: none;
+    font-weight: bolder;
+}
+
+.upbtn {
+    width: 80px;
+    font-size: 30px;
+    outline: none;
+}
+
+.butn {
+    width: 80px;
+    font-size: 30px;
+    outline: none;
+}
+
+button:nth-child() {
+    font-size: 30px;
+    background-color: royalblue;
+}
+
+button:hover {
+    box-shadow: 5px 5px 5px #ddd8d8;
+}
+
+
+/* button:active {
+    box-shadow: 4px 4px 10px rgb(190, 79, 79);
+} */
